@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry2d.Shapes.Tests", "tests\Geometry2d.Shapes.Tests\Geometry2d.Shapes.Tests.csproj", "{A234F954-0332-4050-8152-57EB3BBC6F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry2d.Contracts", "src\Geometry2d.Contracts\Geometry2d.Contracts.csproj", "{ED7F967A-7435-4DA5-A8FB-4E191005ACF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry2d.Shapes", "src\Geometry2d.Shapes\Geometry2d.Shapes.csproj", "{16B6FC80-C62A-4C94-9D3D-27E26016A5DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A234F954-0332-4050-8152-57EB3BBC6F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A234F954-0332-4050-8152-57EB3BBC6F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A234F954-0332-4050-8152-57EB3BBC6F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A234F954-0332-4050-8152-57EB3BBC6F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7F967A-7435-4DA5-A8FB-4E191005ACF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7F967A-7435-4DA5-A8FB-4E191005ACF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7F967A-7435-4DA5-A8FB-4E191005ACF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7F967A-7435-4DA5-A8FB-4E191005ACF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B6FC80-C62A-4C94-9D3D-27E26016A5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B6FC80-C62A-4C94-9D3D-27E26016A5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B6FC80-C62A-4C94-9D3D-27E26016A5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6FC80-C62A-4C94-9D3D-27E26016A5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
