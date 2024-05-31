@@ -25,7 +25,7 @@ public sealed class Triangle : Base2dShape
     /// <exception cref="ArgumentOutOfRangeException">Thrown if any of the provided side lengths are less than or equal to zero.</exception>
     public Triangle(double side1, double side2, double side3)
     {
-        CheckSides(ref side1, ref side2, ref side3);
+        CheckSides(side1, side2, side3);
 
         //sort sides to use numerical stable Herons formula
         //use builtin sorting since we have only 3 values
@@ -36,14 +36,14 @@ public sealed class Triangle : Base2dShape
         C = orderedSides[2];
     }
 
-    private static void CheckSides(ref double a, ref double b, ref double c)
+    private static void CheckSides(double a, double b, double c)
     {
-        CheckSide(ref a);
-        CheckSide(ref b);
-        CheckSide(ref c);
+        CheckSide(a);
+        CheckSide(b);
+        CheckSide(c);
     }
 
-    private static void CheckSide(ref double side)
+    private static void CheckSide(double side)
     {
         if (side <= 0)
             throw new ArgumentOutOfRangeException(
